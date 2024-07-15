@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #faf3e0;
+    color: #333;
+}
+
+header, footer {
+    background-color: #d9534f; /* 日本の伝統色である紅色 */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+
+main {
+    padding: 40px;
+    text-align: center;
+}
+
+main section h2 {
+    color: #d9534f; /* 日本の伝統色である紅色 */
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 30px 0;
+    text-align: left;
+    background-color: #f0e5d8; /* 日本の伝統色である生成色 */
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+ul li:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+ul li a {
+    color: #d9534f; /* 日本の伝統色である紅色 */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+ul li a img.app-icon {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+
+ul li p {
+    margin: 10px 0 0 75px; /* アイコンのスペースを確保 */
+    color: #333;
+}
